@@ -10,6 +10,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #4d4d4e;
+    background-color: red;
 }
 
 /* headings and logo */
@@ -100,33 +101,13 @@ h1  {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-#hero-image {
-    /* animates zoom effect on loading page */
-
-    /* animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; */
+/* Section two */
+#section-two{
+    width: auto;
+    height: 100vh;
+    background-color: #f2a900;
 }
 
-
-
-/* creates the level of zoom for hero image */
-
-/* @keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-} */
+.section-two-container {
+    background-color: aqua ;
+}

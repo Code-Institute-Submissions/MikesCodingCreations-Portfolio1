@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This site discusses the basics of Bitcoin">
     <meta name="keywords" content="Bitcoin, Crypto, Bitcoin Basics">
-    <link rel="stylesheet" href="style.css">
-    <title>Bitcoin</title>
+    <link rel="stylesheet" href="style2.css">
+    <title>Bitcoin Info</title>
 </head>
 
 <body>
     <header>
+        <!-- Nav + Logo -->
         <a href="index.html">
-            <h1 id="logo">Bitcoin?</h1>
+            <h1 id="logo">Bitcoin Info</h1>
         </a>
         <nav>
             <ul id="menu">
@@ -21,10 +22,10 @@
                     <a href="#">Contact</a>
                 </li>
                 <li>
-                    <a href="#">Timeline</a>
+                    <a href="#timeline-section-container">Timeline</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#about-container">About</a>
                 </li>
                 <li>
                     <a href="#">Home</a>
@@ -33,97 +34,63 @@
         </nav>
     </header>
 
+    <!-- Hero / First Section -->
     <section id="hero-container">
         <div id="hero-image">
-            <img src="images/PngItem_1082679.png" alt="">
+            <img src="images/PngItem_1082679.png" alt="image of digital currency Bitcoin">
         </div>
         <div id="cover-text">
             <h2>WHAT IS BITCOIN?</h2>
             <h3>Bitcoin is an innovative payment network and a new kind of money.</h3>
+            <h3 class="more-info-text">Scroll down for more info..</h3>
         </div>
     </section>
 
-    <section id="club-ethos">
-        <h2 id="welcome">Why Love Running With Us?</h2>
-        <div id="left-about">
-            <div class="left-about-heading">
-                <h2>Feel Healthy <i class="fas fa-heartbeat"></i></h2>
-                <hr>
-                <p>
-                    Since it improves aerobic fitness, running is a great way to help improve your cardiovascular
-                    health. Plus, it burns calories and can build strength.
-                </p>
-            </div>
-            <div class="left-about-heading">
-                <h2>Feel Free <i class="fab fa-fly"></i></h2>
-                <hr>
-                <p>
-                    Physical exercise, running included, is known to release endorphins in the brain. Endorphins make
-                    you more energetic, more awake and, yes, happier.
-                </p>
-            </div>
+    <!-- About / Second Section -->
+    <section id="about-container">
+        <h2 id="about-header">About Bitcoin</h2>
+        <div id="about-text-container">
+            <ul>
+                <li>Bitcoin is a form of digital currency, also known as Cryptocurrency.</li>
+                <li>It was created by <span>Satoshi Nakomoto</span>, who is unknown.</li>
+                <li>Bitcoin allows simple peer-to-peer electronic cash payments.</li>
+            </ul>
         </div>
-        <div id="right-about">
-            <div class="right-about-heading">
-                <h2>Get Social <i class="fas fa-globe"></i></h2>
-                <hr>
-                <p>
-                    When we run with others, we can run farther and faster more easily. Social running can pull you out
-                    of a running funk or low mood, inspire you to try new events.
-                </p>
-            </div>
-            <div class="right-about-heading">
-                <h2>Feel Strong <i class="fas fa-dumbbell"></i></h2>
-                <hr>
-                <p>
-                    Running strengthens your heart by pumping blood more effectively through your body.
-                </p>
-            </div>
+
+        <div id="about-video-container">
+            <video width="420" height="300" controls>
+                <source src="/video/bitcoinvideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
         </div>
-        <div id="center-about">
-            <div id="circle-container">
-                <div id="circle-cover-bg"></div>
-            </div>
+
+        <div id="about-white-paper-container">
+            <h2 id="white-paper-heading">Read the Bitcoin White Paper</h2>
+            <a href="https://bitcoin.org/en/" target="_blank">Here</a>
         </div>
     </section>
-    <section id="times">
-        <div>
-            <h2>Urban <i class="fas fa-city"></i></h2>
-            <h3>Monday</h3>
-            <h3>5K</h3>
-            <h3>The Marker Hotel</h3>
-            <h3>18:30</h3>
-        </div>
-        <div>
-            <h2>Trail <i class="fas fa-tree"></i></h2>
-            <h3>Wednesday</h3>
-            <h3>10K</h3>
-            <h3>The Phoenix Park</h3>
-            <h3>18:30</h3>
-        </div>
-        <div>
-            <h2>Urban <i class="fas fa-city"></i></h2>
-            <h3>Friday</h3>
-            <h3>5K</h3>
-            <h3>The Marker Hotel</h3>
-            <h3>18:30</h3>
-        </div>
-        <div>
-            <h2>Trail <i class="fas fa-tree"></i></h2>
-            <h3>Saturday</h3>
-            <h3>10K</h3>
-            <h3>The Phoenix Park</h3>
-            <h3>09:30</h3>
-        </div>
-        <div>
-            <h2>Coffee <i class="fas fa-mug-hot"></i></h2>
-            <h3>Sunday</h3>
-            <h3>0K</h3>
-            <h3>The Marker Hotel</h3>
-            <h3>11:30</h3>
+
+    <!-- Timeline / Third Section -->
+    <section id="timeline-section-container">
+
+            <h2 id="timeline-header">The Bitcoin Timeline</h2>
+            <p>Below is the timeline from the creation to the present</p>
+
+            <table class="timeline-table">
+                <th>Creation</th>
+                <tr>
+                    <td>2008</td>
+                </tr>
+            </table>
+                
         </div>
     </section>
-    <footer>
+
+
+
+
+    <!-- FOOTER -->
+    <!-- <footer id="footer">
         <ul class="social-networks">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -142,7 +109,7 @@
                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
             </li>
         </ul>
-    </footer>
+    </footer> -->
 
     <!-- font awesome script  -->
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
