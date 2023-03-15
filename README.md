@@ -113,8 +113,11 @@ Happy coding!
 <!-- BITCOIN COLOR INFO -->
 https://www.designpieces.com/palette/bitcoin-colour-palette-hex-and-rgb/#:~:text=The%20Bitcoin%20logo%20comprises%20three,the%20logotype%20text)%20and%20White.
 
-<!-- What is Bitcoin / Cover text info  -->
-https://bitcoin.org/en/
-
 <!-- Bitcoin Hero Image -->
 https://www.pngitem.com/middle/JTbmmo_bitcoin-png-transparent-background-bitcoin-png-png-download/
+
+<!-- Bitcoin info -->
+https://bitcoin.org/en/
+https://www.statista.com/statistics/326707/bitcoin-price-index/
+https://www.investopedia.com/articles/forex/121815/bitcoins-price-history.asp
+https://en.wikipedia.org/wiki/Bitcoin

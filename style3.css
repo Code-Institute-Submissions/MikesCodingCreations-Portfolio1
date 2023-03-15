@@ -141,9 +141,12 @@ h1  {
 }
 
 #about-white-paper-container a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+#about-white-paper-container a:hover {
+    color: #4d4d4e;
 }
 
 
@@ -154,7 +157,6 @@ h1  {
     width: auto;
     height: 100vh;
     background-color: #fff;
-    padding: 10px;
 }
 
 #timeline-header {
@@ -165,12 +167,36 @@ h1  {
     color: #f2a900;
 }
 
-table, td, th  {
-    background-color: #4d4d4e;
+#timeline-section-container p {
+    text-align: center;    
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+#timeline-section-container table {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px;
+    /* border: 3px solid red; */
+    height: 500px;
+    width: auto;
 }
+
+th {
+    text-transform: uppercase;
+}
+
+th, tr {
+    border-bottom: 2px solid #f2a900;
+    padding: 2px;
+}
+
+td {
+    border-bottom: 1px solid #4d4d4e;
+}
+
+
 
 /* Conctact / Forth Section */
 #contact-section-container {
