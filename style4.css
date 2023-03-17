@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 * {
     margin: 0;
@@ -15,7 +16,7 @@ body {
 /* headings and logo */
 
 h1  {
-    font-family: Oswald, sans-serif;
+    font-family: 'Share Tech', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #f2a900;
@@ -48,6 +49,7 @@ h1  {
 #menu a {
     text-decoration: none;
     color: inherit;
+    text-transform: uppercase;
 }
 
 #menu a:hover {
@@ -57,7 +59,7 @@ h1  {
 /* Hero image and text */
 
 #hero-container {
-    height: 100vh;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -79,7 +81,7 @@ h1  {
     width: 50%;
     height: 100%;
 
-    bottom: 00px;
+    bottom: 0px;
     right: 0px;
 
     position: absolute;
@@ -92,12 +94,13 @@ h1  {
 
 #cover-text h2 {
     color: #f2a900;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     font-size: 80px;
+    font-family: 'Share Tech', sans-serif;
 }
 
 #cover-text h3 {
-    padding: 50px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -105,10 +108,19 @@ h1  {
     font-size: 0.8em;
 }
 
+.fa {
+    color: #f2a900;
+    margin-top: 10px;
+}
+
+.fa:hover {
+    color: #4d4d4e;
+}
+
 /* About / Second Section */
 #about-container {
     width: auto;;
-    height: 100vh;
+    height: 650px;
     background-color: #f2a900;
     display: flex;
     flex-direction: column;
@@ -117,31 +129,30 @@ h1  {
     color: #fff;
 }
 
-#about-header {
+#about-container h2 {
     padding: 30px;
     font-size: 60px;
     color: #fff;
+    font-family: 'Share Tech', sans-serif;
 }
 
 #about-text-container{
     line-height: 30px;
-    margin-bottom: 10px;
 }
 
-#about-video-container{
-    margin: 10px;
+#about-text-container ul li {
+    list-style: none;
 }
 
-#about-video-container video {
-    padding: 0;
+#about-white-paper-container {
+    margin-top: 30px;
 }
 
-#about-white-paper-container h2{
-    margin: 10px;
+#about-white-paper-container h3 {
+    font-size: 30px;
 }
 
 #about-white-paper-container a {
-    text-decoration: none;
     color: #fff;
 }
 
@@ -150,21 +161,20 @@ h1  {
 }
 
 
-
-
 /* Timeline / Third Section */
 #timeline-section-container {
     width: auto;
-    height: 100vh;
+    height: 600px;
     background-color: #fff;
 }
 
-#timeline-header {
+#timeline-section-container h2 {
     font-size: 60px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
     color: #f2a900;
+    font-family: 'Share Tech', sans-serif;
 }
 
 #timeline-section-container p {
@@ -178,7 +188,6 @@ h1  {
     justify-content: center;
     align-items: center;
     margin: 5px;
-    /* border: 3px solid red; */
     height: 500px;
     width: auto;
 }
@@ -194,14 +203,106 @@ th, tr {
 
 td {
     border-bottom: 1px solid #4d4d4e;
+    padding-right: 25px;
 }
-
 
 
 /* Conctact / Forth Section */
 #contact-section-container {
     width: auto;
-    height: 100vh;
+    height: 600px;
     background-color: #f2a900;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-section-container h2 {
+    color: #fff;
+    font-size: 60px;
+    margin: 20px 0 50px 0;
+    font-family: 'Share Tech', sans-serif;
+}
+
+#contact-section-container h3 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+
+#contact-section-form {
+    width: 350px;
+    padding: 30px;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+#contact-section-form input {
+    width: 250px;
+    height: 25px;
+    border-radius: 3px;
+    outline: none;
+}
+
+#contact-section-form textarea {
+    outline: none;
+    margin: 10px;
+    border-radius: 3px;
+    resize: none;
+} 
+
+#contact-section-form #submit {
+    font-size: 1.1rem;
+    width: 100px;
+    height: 30px;
+    color: #f2a900;
+}
+
+#contact-section-form #submit:hover {
+    background-color: #4d4d4e;
+    color: #fff;
+    cursor: pointer;
+} 
+
+/* Footer / Final section */
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+    height: 80px;
+}
+
+.footer-container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer h3 {
+    font-weight: 300;
+    margin-right: 250px;
+}
+
+#footer .social-networks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-networks li {
+    list-style-type: none;
+}
+
+#footer .fab {
+    color: #f2a900;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+#footer .fab:hover {
+    color: #4d4d4e;
 }
