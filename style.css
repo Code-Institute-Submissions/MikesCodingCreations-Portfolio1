@@ -308,8 +308,65 @@ td {
 }
 
 /* Responsiveness / Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        width: 600px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hero-image {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #hero-image img {
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+
+    #timeline-section-container {
+        width: 100%;
+    }
+
+    #contact-section-container {
+        font-size: 0.8rem;
+    }
+
+    #contact-section-container h2 {
+        font-size: 2rem;
+    }
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #hero-image img {
+        width: 450px;
+        height: 450px;
+        padding-left: 0;
+        padding-top: 0;
+}
+
+
+#contact-section-container {
+    font-size: 0.8rem;
+}
+
+#contact-section-container h2 {
+    font-size: 2rem;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
     body {
         width: auto;
     }
@@ -352,7 +409,7 @@ td {
     #hero-image img{
         width: 200px;
         height: auto;
-        padding: 0;
+        margin-bottom: 60px;
     }
 
     #cover-text {
@@ -387,7 +444,7 @@ td {
         align-items: center;
         margin-left: 25px;
         height: 375px;
-        width: 700px;
+        width: 90%;
         font-size: 0.85rem;
   }
 
@@ -407,39 +464,8 @@ td {
   }
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        width: auto;
-    }
-    nav a{
-        font-size: 10px;
-    }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
 
-    #hero-container{
-        width: auto;
-    }
-
-    #hero-image {
-        height: 200px;
-        width: 200px;
-        position: relative;
-        left: 90px;
-    }
-
-    #hero-imgage img{
-        width: 250px;
-    }
-
-    #cover-text {
-        right: 20px;
-        top: 230px;
-    }
-
-    #cover-text h3 {
-        font-size: 0.8rem;
-    }
-
-    #cover-text h4 {
-        margin-bottom: 15px;
-    }
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
