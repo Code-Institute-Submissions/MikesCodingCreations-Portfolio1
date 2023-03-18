@@ -311,15 +311,43 @@ td {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    body {
-        width: 600px;
-    }
 
     header {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    #menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    #menu ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #menu li {
+        list-style-type: none;
+        margin: 0 10px;
+        font-weight: 700;
+    }
+
+    #menu a {
+        font-size: 10px;
+    }
+
+    #hero-container {
+        width: 100%;
+        height: 360px;
+        display: flex;
+        flex-direction: column;
     }
 
     #hero-image {
@@ -331,8 +359,39 @@ td {
     #hero-image img {
         padding-left: 0;
         padding-top: 0;
+        width: 150px;
+        height: auto;
     }
 
+    #cover-text{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: auto;
+    height: auto;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    }
+
+    #cover-text h2 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        font-size: 40px;
+    }
+    #cover-text h3 {
+        font-size: 13px;
+        font-weight: 100;
+    }
+
+    #cover-text h4 {
+        font-size: 10px;
+    }
+}
 
     #timeline-section-container {
         width: 100%;
@@ -346,7 +405,6 @@ td {
         font-size: 2rem;
     }
 
-}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     #hero-image img {
@@ -481,5 +539,3 @@ td {
     }
 }
 }
-/* Extra large devices (large laptops and desktops, 1200px and up)
-@media only screen and (min-width: 1200px) {} */
