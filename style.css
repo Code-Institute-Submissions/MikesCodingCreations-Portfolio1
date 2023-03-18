@@ -465,7 +465,21 @@ td {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+
+    #hero-image  {
+        margin-left: 150px;
+        margin-top: 70px;
+    }
+
+    #contact-section-container h2 {
+        font-size: 5rem;
+    }
+
+    #contact-section-container h3 {
+        font-size: 1.3rem;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
