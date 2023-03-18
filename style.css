@@ -391,19 +391,115 @@ td {
     #cover-text h4 {
         font-size: 10px;
     }
-}
+
+    #about-container {
+        height: 100%;
+    }
+
+    #about-container h2 {
+        font-size: 3rem;
+        padding: 10px;
+    }
+
+    #about-text-container {
+        width: 90%;
+    }    
+
+    #about-text-container ul li {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    #about-video-container video{
+        width: 350px;
+        height: 260px;
+    }
+
+    #about-white-paper-container{
+        text-align: center;
+    }
+
+    #about-white-paper-container h3 {
+        font-size: 1.3rem;
+        padding-bottom: 15px;
+    }
 
     #timeline-section-container {
         width: 100%;
+        height: 100%;
     }
 
+    #timeline-section-container h2 {
+        text-align: center;
+        font-size: 3rem;
+        padding: 10px;
+    }
+
+    #timeline-section-container table {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 0.9rem;
+    }
+
+    #timeline-section-container table td {
+        text-align: center;
+        padding: 5px;
+    }
+    
     #contact-section-container {
         font-size: 0.8rem;
+        height: 100%;
     }
 
     #contact-section-container h2 {
+        padding: 10px 0;
+        margin: 0;
         font-size: 2rem;
     }
+
+    #contact-section-container h3 {
+        text-align: center;
+        margin: 0;
+    }
+
+    #footer {
+        height: auto;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footer h3 {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .footer-container-left{
+        display: block;
+        text-align: center;
+    }
+
+    .footer-container-left h3 {
+        padding-bottom: 10px;
+    }
+
+
+    .footer-container-right {
+        font-size: 15px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    #footer .fab {
+        margin-right: 15px;
+    }
+}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
