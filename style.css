@@ -11,6 +11,10 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #4d4d4e;
+    margin: auto;
+    width: auto;
+    height: 100%;
+    overflow: scroll;
 }
 
 /* headings and logo */
@@ -30,14 +34,15 @@ h1  {
 
 /* Navbar */
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 2px;
+#logo {
+    margin: 30px 0;
 }
 
-#menu, #logo {
-    line-height: 75px;
+#menu {
+    letter-spacing: 2px;
+    margin-right: 10px;
 }
+
 
 #menu li {
     float: right;
@@ -61,14 +66,12 @@ h1  {
 #hero-container {
     height: 600px;
     width: 100%;
-    overflow: hidden;
-    position: relative;
 }
 
 #hero-image img {
     width: 450px;
     height: 450px;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 75px;
 }
 
@@ -81,7 +84,7 @@ h1  {
     width: 50%;
     height: 100%;
 
-    bottom: 0px;
+    bottom: 100px;
     right: 20px;
 
     position: absolute;
@@ -308,335 +311,107 @@ td {
 }
 
 /* Responsiveness / Media Queries */
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
 
     header {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-    }
-
-    #menu {
-        width: 100%;
-        display: flex;
-        justify-content: center;
         align-content: center;
-        line-height: 30px;
-        margin-bottom: 10px;
-    }
-
-    #menu ul {
         margin: 0;
         padding: 0;
     }
 
-    #menu li {
-        list-style-type: none;
-        margin: 0 10px;
-        font-weight: 700;
+    #logo {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    #menu {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 10px 0;
     }
 
-    #menu a {
-        font-size: 10px;
+    #menu li {
+        padding: 0;
+        margin: auto;
+    }
+    
+    #menu li a {
+        font-size: 0.8rem;
     }
 
     #hero-container {
-        width: 100%;
-        height: 360px;
+        width: auto;
+        height: auto;
         display: flex;
         flex-direction: column;
-    }
-
-    #hero-image {
-        display: flex;
         justify-content: center;
+        align-items: center;
         align-content: center;
     }
 
-    #hero-image img {
-        padding-left: 0;
-        padding-top: 0;
-        width: 150px;
+    #hero-image {
+        width: auto;
         height: auto;
+        position: static;
     }
-
-    #cover-text{
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    width: auto;
-    height: auto;
-    bottom: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 10px;
+    
+    #hero-image img {
+        width: 100px;
+        height: 100%;
+        padding: 0;
+        margin: 15px;
+    }
+    
+    #cover-text {
+        width: auto;
+        height: 100%;
+        padding: 0;
+        position: static;
     }
 
     #cover-text h2 {
-        width: 100%;
-        text-align: center;
         margin: 0;
-        font-size: 40px;
+        font-size: 1.9em;
+        padding: 5px;
     }
+
     #cover-text h3 {
-        font-size: 13px;
-        font-weight: 100;
+        font-size: 0.8em;
     }
 
     #cover-text h4 {
-        font-size: 10px;
+        font-size: 0.6em;
+        padding: 20px;
     }
 
-    #about-container {
-        height: 100%;
-    }
-
-    #about-container h2 {
-        font-size: 3rem;
-        padding: 10px;
-    }
-
-    #about-text-container {
-        width: 90%;
-    }    
-
-    #about-text-container ul li {
-        font-size: 11px;
-        text-align: center;
-    }
-
-    #about-video-container video{
-        width: 350px;
-        height: 260px;
-    }
-
-    #about-white-paper-container{
-        text-align: center;
-    }
-
-    #about-white-paper-container h3 {
-        font-size: 1.3rem;
-        padding-bottom: 15px;
-    }
-
-    #timeline-section-container {
-        width: 100%;
-        height: 100%;
-    }
-
-    #timeline-section-container h2 {
-        text-align: center;
-        font-size: 3rem;
-        padding: 10px;
-    }
-
-    #timeline-section-container table {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        height: 100%;
-        width: 100%;
-        margin-bottom: 20px;
-        font-size: 0.9rem;
-    }
-
-    #timeline-section-container table td {
-        text-align: center;
-        padding: 5px;
-    }
-    
-    #contact-section-container {
-        font-size: 0.8rem;
-        height: 100%;
-    }
-
-    #contact-section-container h2 {
-        padding: 10px 0;
-        margin: 0;
-        font-size: 2rem;
-    }
-
-    #contact-section-container h3 {
-        text-align: center;
-        margin: 0;
-    }
-
-    #footer {
-        height: auto;
-        margin: 5px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    #footer h3 {
-        margin: 0;
-        font-size: 15px;
-    }
-
-    .footer-container-left{
-        display: block;
-        text-align: center;
-    }
-
-    .footer-container-left h3 {
-        padding-bottom: 10px;
-    }
-
-
-    .footer-container-right {
-        font-size: 15px;
-        text-align: center;
-        margin: 10px;
-    }
-
-    #footer .fab {
-        margin-right: 15px;
-    }
 }
-
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-    body {
-        width: 100%;
-        overflow: hidden;
-    }
-    #hero-image img {
-        width: 450px;
-        height: 450px;
-        padding-left: 0;
-        padding-top: 0;
-}
-
-
-#contact-section-container {
-    font-size: 0.8rem;
-}
-
-#contact-section-container h2 {
-    font-size: 2rem;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-    body {
-        width: auto;
-    }
+@media only screen and (min-width: 768px) {
 
-    body h2 {
-        font-size: 0.85rem;
-    }
-
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    header #logo {
-        margin: 0;
-    }
-
-    header nav {
-        font-size: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #hero-container {
-        width: 100%;
-        height: 450px;
-    }
-
-    #hero-image {
-        width: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #hero-image img{
-        width: 200px;
-        height: auto;
-        margin-bottom: 60px;
-    }
-
-    #cover-text {
-        width: 100%;
-        height: auto;
-        letter-spacing: 2px;
-        bottom: 50px;
-    }
-
-    #cover-text h2 {
-        margin: 0;
-        padding: 0;
-        font-size: 40px;
-    }
-
-    #cover-text h3 {
-        font-size: 15px;
-    }
-
-    .more-info-text {
-        font-size: 12px;
-        font-weight: 100;
-    }
-
-    #timeline-section-container {
-        height: 500px;
-    }
-
-    #timeline-section-container table {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 25px;
-        height: 375px;
-        width: 90%;
-        font-size: 0.85rem;
-  }
-
-  #footer h3, #footer p {
-    font-size: 20px;
-    width: 100%;
-  }
-
-  #footer h3 {
-    margin-right: 45px;
-  }
-
-  .footer-container-left {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 30px;
-  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    #hero-image  {
-        margin-left: 150px;
-        margin-top: 70px;
-    }
-
-    #contact-section-container h2 {
-        font-size: 5rem;
-    }
-
-    #contact-section-container h3 {
-        font-size: 1.3rem;
-    }
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
