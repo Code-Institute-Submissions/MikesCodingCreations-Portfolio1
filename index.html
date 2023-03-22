@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This site discusses the basics of Bitcoin">
     <meta name="keywords" content="Bitcoin, Crypto, Bitcoin Basics">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <title>Bitcoin Info</title>
     <link rel="shortcut icon" type="image/jpg" href="/favicon.ico">
 </head>
@@ -14,22 +14,22 @@
 <body>
     <header>
         <!-- Nav + Logo -->
-        <a href="index.html">
+        <a id="logo-link" href="index.html">
             <h1 id="logo">Bitcoin Info</h1>
         </a>
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#about-container">About</a>
+                    <a href="#contact-section-container">Contact</a>
                 </li>
                 <li>
                     <a href="#timeline-section-container">Timeline</a>
                 </li>
                 <li>
-                    <a href="#contact-section-container">Contact</a>
+                    <a href="#about-container">About</a>
+                </li>
+                <li>
+                    <a href="#">Home</a>
                 </li>
             </ul>
         </nav>
@@ -49,7 +49,7 @@
     </section>
 
     <!-- About / Second Section -->
-    <!-- <section id="about-container">
+    <section id="about-container">
         <h2>About Bitcoin</h2>
         <div id="about-text-container">
             <ul>
@@ -69,12 +69,12 @@
         <div id="about-white-paper-container">
             <h3 id="white-paper-heading">Read the Bitcoin White Paper <a href="https://bitcoin.org/en/bitcoin-paper" target="_blank">here</a></h3>
         </div>
-    </section> -->
+    </section>
 
 
 
     <!-- Timeline / Third Section -->
-    <!-- <section id="timeline-section-container">
+    <section id="timeline-section-container">
 
             <h2>The Bitcoin Timeline</h2>
             <p>Below is the timeline from the creation to the present</p>
@@ -87,84 +87,84 @@
                 </tr>
                 <tr>
                     <td>2008</td>
-                    <td>Bitcoin.org Domain Registered</td>
+                    <td class="tabled">Bitcoin.org Domain Registered</td>
                     <td>N/A</td>
                 </tr>
                 <tr>
                     <td>2009</td>
-                    <td>Bitcoin network comes into existance</td>
+                    <td class="tabled">Bitcoin network comes into existance</td>
                     <td>0</td>
                 </tr>
                 <tr>
                     <td>2010</td>
-                    <td>First retail transaction - 10,000 BTC for 2 Pizza's</td>
+                    <td class="tabled">First retail transaction - 10,000 BTC for 2 Pizza's</td>
                     <td>$.09</td>
                 </tr>
                 <tr>
                     <td>2011</td>
-                    <td>Main payment processor -BitPay founded</td>
+                    <td class="tabled">Main payment processor -BitPay founded</td>
                     <td>$29.60</td>
                 </tr>
                 <tr>
                     <td>2012</td>
-                    <td>BitPay surpasses 1,000 merchants accepting Bitcoin</td>
+                    <td class="tabled">BitPay surpasses 1,000 merchants accepting Bitcoin</td>
                     <td>$230</td>
                 </tr>
                 <tr>
                     <td>2013</td>
-                    <td>FBI seizes 26,000 BTC from black market</td>
+                    <td class="tabled">FBI seizes 26,000 BTC from black market</td>
                     <td>$1,237.55</td>
                 </tr>
                 <tr>
                     <td>2014</td>
-                    <td>Mt. Gox. (Bitcoin exchange) files for Bankruptcy</td>
+                    <td class="tabled">Mt. Gox. (Bitcoin exchange) files for Bankruptcy</td>
                     <td>$817</td>
                 </tr>
                 <tr>
                     <td>2015</td>
-                    <td>Over 100,000 merchants accept Bitcoin</td>
+                    <td class="tabled">Over 100,000 merchants accept Bitcoin</td>
                     <td>$431</td>
                 </tr>
                 <tr>
                     <td>2016</td>
-                    <td>Cabinet of Japan recognized bitcoin similar to real money</td>
+                    <td class="tabled">Cabinet of Japan recognized bitcoin similar to real money</td>
                     <td>$966</td>
                 </tr>
                 <tr>
                     <td>2017</td>
-                    <td>Bitcoin symbol was encoded in Unicode version 10.0</td>
+                    <td class="tabled">Bitcoin symbol was encoded in Unicode version 10.0</td>
                     <td>$19,345.49</td>
                 </tr>
                 <tr>
                     <td>2018</td>
-                    <td>South Korea puts a ban on anonymous trading of Bitcoin</td>
+                    <td class="tabled">South Korea puts a ban on anonymous trading of Bitcoin</td>
                     <td>$10,000</td>
                 </tr>
                 <tr>
                     <td>2019</td>
-                    <td>Difficult year for global Crypto market resulting in all time low</td>
+                    <td class="tabled">Difficult year for global Crypto market resulting in all time low</td>
                     <td>$11,972</td>
                 </tr>
                 <tr>
                     <td>2020</td>
-                    <td>PayPal allows users to buy and sell bitcoin on its platform</td>
+                    <td class="tabled">PayPal allows users to buy and sell bitcoin on its platform</td>
                     <td>$29,000</td>
                 </tr>
                 <tr>
                     <td>2021</td>
-                    <td>El Salvador announced plans to adopt bitcoin as legal tender</td>
+                    <td class="tabled">El Salvador announced plans to adopt bitcoin as legal tender</td>
                     <td>$68,789</td>
                 </tr>
                 <tr>
                     <td>2022</td>
-                    <td>Russia's War in Ukraine affected the price of Bitcoin</td>
+                    <td class="tabled">Russia's War in Ukraine affected the price of Bitcoin</td>
                     <td>$47,445</td>
                 </tr>
             </table>
-    </section> -->
+    </section>
 
     <!-- Contact / Forth Section -->
-    <!-- <section id="contact-section-container">
+    <section id="contact-section-container">
         <h2>Contact us for more Info</h2>
         <h3>Kindly fill in the form below, and someone will get in contact with you soon</h3>
 
@@ -177,10 +177,10 @@
             <textarea name="message" id="message" rows="5" cols="30"></textarea>
             <input id="submit" type="submit" value="Submit">
           </form> 
-    </section> -->
+    </section>
 
     <!-- FOOTER -->
-    <!-- <footer id="footer">
+    <footer id="footer">
         <div class="footer-container-left">
             <h3>Follow us on social media</h3>
                 <ul class="social-networks">
@@ -205,7 +205,7 @@
         <div class="footer-container-right">
             <p>All rights reserved 2023  &copy;</p>
         </div>
-    </footer> -->
+    </footer>
 
     <!-- font awesome script  -->
     <script src="https://kit.fontawesome.com/fb9bf043f5.js" crossorigin="anonymous"></script>
