@@ -7,13 +7,13 @@
     border: none;
 }
 
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    margin: auto;
-    width: auto;
-    height: auto;
-    overflow: scroll;
+    margin: 0;
+    width: 100%;
+    height: 100%;
     color: #4d4d4e;
 }
 
@@ -21,7 +21,7 @@ body {
 /* headings and logo */
 
 header {
-    width: auto;
+    width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-around;
@@ -313,8 +313,8 @@ td {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
 
     header {
