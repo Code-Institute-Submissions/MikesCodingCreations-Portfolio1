@@ -97,8 +97,7 @@ h1  {
 
 #cover-text h2 {
     color: #f2a900;
-    margin-bottom: 30px;
-    font-size: 30px;
+    margin-bottom: 5px;
     font-family: 'Share Tech', sans-serif;
 }
 
@@ -402,7 +401,6 @@ td {
         margin-bottom: 20px;
     }
 
-    /* about section */
     #about-container {
         width: auto;
         height: auto;
@@ -447,7 +445,6 @@ td {
         font-size: 1.2em;
     }
 
-    /* timeline section */
     #timeline-section-container {
         width: auto;
         height: auto;
@@ -545,6 +542,8 @@ td {
     #hero-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     }
 
@@ -556,6 +555,10 @@ td {
 
     #hero-image img {
         width: 100px;
+    }
+
+    #hero-text h2 {
+        margin: 0;
     }
 
     #timeline-section-container table {
@@ -587,7 +590,7 @@ td {
     }
 
     #hero-image {
-        width: 60%;
+        width: 40%;
     }
 
     #hero-image img {
@@ -617,7 +620,7 @@ td {
     }
 
     #about-container {
-        padding: 30px;
+        padding: 20px;
     }
 
     #timeline-section-container {
@@ -659,7 +662,7 @@ td {
     }
 
     #cover-text h2 {
-        font-size: 8rem;
+        font-size: 6rem;
         margin: 10px;
         padding: 0;
     }
