@@ -1,123 +1,135 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Bitcoin Info
 
-Welcome Mikes Coding Creations,
+The 'Bitcoin Info' website is a landing page for anyone who is curious about cryptocurrency and specifically Bitcoin. It is aimed to briefly explain what Bitcoin is, how it works with a few brief lines of text and an external video, the timeline and historical events and finally allow request (via the form) for more information.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of this website will be able to find out basic information around Bitcoin as well as conduct further research by reviewing the Whitepaper on the Bitcoin.org website or watching the short external video link. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+bitcoin_info_full_responsive_mockup.png
 
-## Gitpod Reminders
+### Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+  - Featured on all three pages, the full responsive navigation bar includes links to the Home page, About section, Timeline section and the Contact section and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+bitcoin_info_full_navbar.png
 
-Another blue button should appear to click: _Open Browser_.
+- __Hero section__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The landing includes a photograph of the Bitcoin icon/logo with text to the right (on large devices, and below on smaller devices) which explains briefly what Bitcoin is. 
+  - This section introduces the user to Bitcoin Info with an eye catching image and hero text to grab their attention
 
-A blue button should appear to click: _Make Public_,
+![Hero Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+bitcoin_info_hero.png
 
-Another blue button should appear to click: _Open Browser_.
+- __About section__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The about section will allow the user to quickly and easily understand the main concent of Bitcoin.
+  - This user will also be able to use video controls (pause, play, full screen, mute etc.) to preview a short and simply video explansation from an extrernal site of what Bitcoin is. 
+  - Further to this, users will be able to navigate to the external link so they may conduct further research on what Bitcoin is via the Bitcoin.org website.
 
-To log into the Heroku toolbelt CLI:
+![About Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+bitcoin_info_about_section.png
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __Timeline section__
 
-------
+  - This section will allow the user to see historical events that have occured since the creation of Bitcoin. This information is displayed in a table format with a heading and a sub-heading.
+  - This section will be updated as further/future events occur. 
 
-## Release History
+![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+bitcoin_info_timeline.png
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- __Contact section__
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  - The contact section will provide the user an opportunity to submit any queries or questions they may have either about the website itself or about Bitcoin.
+  - Here the user will be prompted to enter their full name, their email address where they will be contacted back on and finally their query in a text box. 
+  - This section is valuable to the user as it shows the creator is willing to contact them back to answer any query they may have. It also shows interactivty as the form will be submitted to CI's form dump site where in theory they should get a 'form/request submitted' popup.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+bitcoin_info_contact.png
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- __Footer__ 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - The footer section includes links to the relevant social media sites for Bitcoin Info. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+bitcoin_info_footer.png
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Features Left to Implement
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- A gallery of more Bitcoin images
+- A 'partnership/user' section detailing entetites that have integrated Bitcoin
+- A live API that displays the live price for Bitcoin
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Testing 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- I tested that this site works well on multiple browsers such as Google Chrome, Firefox, Safari and IE.
+- I confirm that this website is responsive, lookgs good and functions well on all standard screen sizes using the Google Chrome devtools and the 'am i responsive' website.
+- I declare that all sections including the navigation header, nav links, home, about, timeline, contact and footer sections are relatateable and simple to comprehend.
+- I can verify that the form works well and relevant fields apply (e.g., email field only accepts email responses).
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Bugs
+Solved bugs
+- When deploying my project to GitHub pages, i noticed that the CSS file was not correctly linked via the file path as the styles did not apply. Previously the filepath that i had was:
+    <link rel="stylesheet" href="assets/style.css">
+However, after a few tests, i changed the link to the correct filepath:
+    <link rel="stylesheet" href="./assets/style.css">
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- When submitting the form, i discorved that the ID of certain fields were not linked and therfore did not match. I quickly changed these to ensure the form was fully connected
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- A bug that took a while to solve was the website responsiveness. I had to play around with 'Flexbox Froggy' to fully understand CSS Flexbox layouts to ensure the site was fully responsive on all devices.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Validator Testing 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- HTML
+  - No errors were returned when passing through the official 
+  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmikescodingcreations.github.io%2FPortfolio1%2F)
+  [W3C validator image](bitcoin_info_w3c_validator.png)
+- CSS
+  - No errors were found when passing through the official 
+  [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmikescodingcreations.github.io%2FPortfolio1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  [Jigsaw validator image](bitcoin_info_jigsaw_validator.png)
 
-------
+### Unfixed Bugs
 
-## FAQ about the uptime script
+N/A
 
-**Why have you added this script?**
+## Deployment
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-**How will this affect me?**
+The live link can be found here - https://mikescodingcreations.github.io/Portfolio1/ 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Credits 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Credits go to the below links for their information on how to build this site and for providing information that has been used such as image, text and video.
 
-**So….?**
+# Content 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- Information on the Hero section was taken from the Bitcoin website [Bitcoin] (https://bitcoin.org/en/)
+- The text for the about section was taken from Wikipedia [Wikipedia] (https://en.wikipedia.org/wiki/Bitcoin)
+- Info for the timeline section (bitcoin price history) was taken from two sites 
+    [Statista] (https://www.statista.com/statistics/326707/bitcoin-price-index/) 
+    and [Investopedia] (https://www.investopedia.com/articles/forex/121815/bitcoins-price-history.asp)
+- Instructions on how to create this site was taken from the CI project 1 course [Link to CI](https://codeinstitute.net/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Information on the Bitcoin color code was taken from [Design_Pieces] ( https://www.designpieces.com/palette/bitcoin-colour-palette-hex-and-rgb/#:~:text=The%20Bitcoin%20logo%20comprises%20three,the%20logotype%20text)%20and%20White. )
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Media
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- The hero image of Bitcoin was taken from [pngitem] (https://www.pngitem.com/middle/JTbmmo_bitcoin-png-transparent-background-bitcoin-png-png-download/)
+- The video in the about section was taken from [The_Guardian] (https://www.theguardian.com/news/video/2014/apr/30/bitcoin-made-simple-video-animation)
 
 ---
 
-Happy coding!
 
-
-<!-- MY REFERENCES/README BELOW -->
-
-<!-- BITCOIN COLOR INFO -->
-https://www.designpieces.com/palette/bitcoin-colour-palette-hex-and-rgb/#:~:text=The%20Bitcoin%20logo%20comprises%20three,the%20logotype%20text)%20and%20White.
-
-<!-- Bitcoin Hero Image -->
-https://www.pngitem.com/middle/JTbmmo_bitcoin-png-transparent-background-bitcoin-png-png-download/
-
-<!-- Bitcoin info -->
-https://bitcoin.org/en/
-https://www.statista.com/statistics/326707/bitcoin-price-index/
-https://www.investopedia.com/articles/forex/121815/bitcoins-price-history.asp
-https://en.wikipedia.org/wiki/Bitcoin
