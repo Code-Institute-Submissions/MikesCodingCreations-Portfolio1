@@ -4,8 +4,8 @@ The 'Bitcoin Info' website is a landing page for anyone who is curious about cry
 
 Users of this website will be able to find out basic information around Bitcoin as well as conduct further research by reviewing the Whitepaper on the Bitcoin.org website or watching the short external video link. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
-bitcoin_info_full_responsive_mockup.png
+![Responsice Mockup](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_full_responsive_mockup.png)
+
 
 ### Features 
 
@@ -14,16 +14,15 @@ bitcoin_info_full_responsive_mockup.png
   - Featured on all three pages, the full responsive navigation bar includes links to the Home page, About section, Timeline section and the Contact section and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
-bitcoin_info_full_navbar.png
+![Nav Bar](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_full_navbar.png)
+
 
 - __Hero section__
 
   - The landing includes a photograph of the Bitcoin icon/logo with text to the right (on large devices, and below on smaller devices) which explains briefly what Bitcoin is. 
   - This section introduces the user to Bitcoin Info with an eye catching image and hero text to grab their attention
 
-![Hero Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-bitcoin_info_hero.png
+![Hero Section](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_hero.png)
 
 - __About section__
 
@@ -31,8 +30,7 @@ bitcoin_info_hero.png
   - This user will also be able to use video controls (pause, play, full screen, mute etc.) to preview a short and simply video explansation from an extrernal site of what Bitcoin is. 
   - Further to this, users will be able to navigate to the external link so they may conduct further research on what Bitcoin is via the Bitcoin.org website.
 
-![About Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-bitcoin_info_about_section.png
+![About Section](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_about_section.png)
 
 
 - __Timeline section__
@@ -40,8 +38,7 @@ bitcoin_info_about_section.png
   - This section will allow the user to see historical events that have occured since the creation of Bitcoin. This information is displayed in a table format with a heading and a sub-heading.
   - This section will be updated as further/future events occur. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-bitcoin_info_timeline.png
+![Meetup Times](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_timeline.png)
 
 - __Contact section__
 
@@ -49,16 +46,14 @@ bitcoin_info_timeline.png
   - Here the user will be prompted to enter their full name, their email address where they will be contacted back on and finally their query in a text box. 
   - This section is valuable to the user as it shows the creator is willing to contact them back to answer any query they may have. It also shows interactivty as the form will be submitted to CI's form dump site where in theory they should get a 'form/request submitted' popup.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-bitcoin_info_contact.png
+![Gallery](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_contact.png)
 
 - __Footer__ 
 
   - The footer section includes links to the relevant social media sites for Bitcoin Info. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-bitcoin_info_footer.png
+![Footer](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_footer.png)
 
 ### Features Left to Implement
 
@@ -89,11 +84,11 @@ However, after a few tests, i changed the link to the correct filepath:
 - HTML
   - No errors were returned when passing through the official 
   [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmikescodingcreations.github.io%2FPortfolio1%2F)
-  [W3C validator image](bitcoin_info_w3c_validator.png)
+  [W3C validator image](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_w3c_validator.png)
 - CSS
   - No errors were found when passing through the official 
   [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmikescodingcreations.github.io%2FPortfolio1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-  [Jigsaw validator image](bitcoin_info_jigsaw_validator.png)
+  [Jigsaw validator image](https://github.com/MikesCodingCreations/Portfolio1/blob/main/media/bitcoin_info_jigsaw_validator.png)
 
 ### Unfixed Bugs
 
